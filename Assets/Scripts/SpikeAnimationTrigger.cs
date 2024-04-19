@@ -49,7 +49,7 @@ public class SpikeAnimationTrigger : MonoBehaviour
             KeyPressed = true;
             animator.SetBool("KeyPressed", true);
         }
-        else if (Input.GetKeyDown(KeyCode.S))
+        else if (Input.GetKeyDown(KeyCode.R))
         {
             KeyPressed = false;
             animator.SetBool("KeyPressed", false);
